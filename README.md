@@ -287,8 +287,6 @@ LexicalEnvironment의 내부에는 **environmentRecord**와 **outerEnvironment
 
 스코프체인 : 변수와 함수가 정의되고 액세스할 수 있는 범위의 계층 구조, 변수와 함수를 사용할 때 이름 충돌과 예기치 않은 결과를 피하는 데 도움이 되므로 JavaScript에서 중요
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1644a5c-852a-45cd-bda0-cef2b0adff50/Untitled.png)
-
 호이스팅 : 변수, 함수의 선언부가 최상단으로 끌어올려지는 현상을 이야기한다. 자바스크립트 컴파일러가 선언과 구현(실행)을 별도로 처리하기 때문이다.
 
 ## 03. ****데이터타입, 실행 컨텍스트**** Questions
