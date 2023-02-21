@@ -72,8 +72,6 @@
 
 **기본형 데이터**는 값을 그대로 할당한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28c4ae2f-0845-46b5-8650-6140a114550c/Untitled.png)
-
 메모리상에 고정된 크기로 저장되며 원시 데이터 값 자체를 보관하므로
 
 불변적이다. 같은 데이터는 하나의 메모리를 사용한다.(재사용)
@@ -81,8 +79,6 @@
 **참조형데이터(Reference Type)**
 
 참조 타입은 변수에 할당할때 값이 아닌 데이터의 주소를 저장
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6c9b9fc-3f7b-4929-b50c-4a9dd8bb908b/Untitled.png)
 
 **4.왜 불변 객체를 이용해야 할까요? 어떤 실수가 있을 수 있을까요?**
 
@@ -153,11 +149,7 @@ java는 객체지향 이기에 실행전 전체변수와 함수들을 확인하�
 
 5.함수 선언문과 함수 표현식은 어떻게 다를까요?
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/436c131a-79b7-488b-b4f8-d5ce8095c0f4/Untitled.png)
-
 함수 표현식은 정의하자마자 실행됨
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/533bee49-7c7a-4dc6-817b-f813ac41b1e7/Untitled.png)
 
 6.스코프는 무엇일까요?
 
@@ -219,8 +211,6 @@ null : 선언 o, 할당 but 빈값을 할당한 상태. 자료형(object)
 
 스택 :  ****프로그램이 실행 중인 위치를 추적하고 함수를 실행할 때 변수와 다른 리소스의 상태를 기억할 수 있게 해주는 기능**(후입선출 식으로 계산) : Last in First OUT : LIFO**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a034f59e-dcb3-460e-8e58-f984826ef43d/Untitled.png)
-
 큐 ****(Queue)****
 
 - 데이터를 집어넣을 수 있는 선형(linear) 자료형이다.
@@ -229,14 +219,10 @@ null : 선언 o, 할당 but 빈값을 할당한 상태. 자료형(object)
 - 큐는 **순서대로 처리해야 하는 작업을 임시로 저장해두는 버퍼(buffer)**로서 많이 사용됩니다.
 - **선입선출: FIRST IN FIRST OUT : FIFO**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e5eb262d-655f-47bc-a8a9-9d3321dc4094/Untitled.png)
-
 전역 컨텍스트 : 프로그램의 모든 코드, 동작 환경을 포함하는 전역 환경이다. 프로그램 (혹은 페이지)가 종료 될 때 까지 유지된다.
 
 콜스택 : 컴퓨터 프로그램에서 현재 실행 중인 서브루틴에 관한 정보를 저장하는 스택 자료구조
 **코드의 실행 순서를 관리하는 역할**도 하며, 기존 스택과는 큰 차이는 없음
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd7b8265-a027-4a5c-8d49-4b3fed1df4f8/Untitled.png)
 
 ```jsx
 var helloWorld = function helloWorld() {
